@@ -1,0 +1,218 @@
+{
+  "additionalPriceTable":
+  [],
+  "currency": "USD",
+  "description":
+  [],
+  "effectivePricing":
+  [],
+  "externalId":
+  [
+    {
+      "id": "103033",
+      "owner": "RM",
+      "type": "PI",
+      "uid": "2d3324e6-907d-4c41-8f10-a6d7f2f81475"
+    }
+  ],
+  "immediatePayOption":
+  {
+    "payOption": "Mandatory"
+  },
+  "installments":
+  {
+    "installmentsOptionRecord":
+    [
+      {
+        "installmentsOption":
+        [
+          {
+            "defaultDownPayment":
+            {
+              "amount":
+              {
+                "value": 150
+              }
+            },
+            "defaultNumberOfInstallments": 12,
+            "downPayment":
+            {
+              "amount":
+              {
+                "value": 150
+              }
+            },
+            "id": "162656994",
+            "maxDownPayment":
+            {},
+            "minDownPayment":
+            {},
+            "numberOfInstallments":
+            [
+              12
+            ],
+            "validFor":
+            {
+              "startDateTime": "2017-01-01T00:00:00Z"
+            }
+          }
+        ],
+        "installmentsParameter":
+        [
+          {
+            "name": "CreditScore",
+            "value": "Any_Value"
+          },
+          {
+            "name": "SalesChannel",
+            "value": "Any_Value"
+          }
+        ]
+      },
+      {
+        "installmentsOption":
+        [
+          {
+            "defaultDownPayment":
+            {
+              "amount":
+              {
+                "value": 0
+              }
+            },
+            "downPayment":
+            {
+              "amount":
+              {
+                "value": 0
+              }
+            },
+            "id": "81a5c300-5e2f-4b04-8b3f-009f7af1c25e",
+            "maxDownPayment":
+            {
+              "amount":
+              {
+                "value": 0
+              }
+            },
+            "minDownPayment":
+            {
+              "amount":
+              {
+                "value": 0
+              }
+            },
+            "numberOfInstallments":
+            [
+              1
+            ],
+            "validFor":
+            {
+              "startDateTime": "2021-12-06T22:00:00Z"
+            }
+          }
+        ],
+        "installmentsParameter":
+        []
+      }
+    ]
+  },
+  "isPublic": false,
+  "name":
+  [
+    {
+      "locale": "en-US",
+      "value": "Device Price1"
+    }
+  ],
+  "overrideOption":
+  [],
+  "policy":
+  {
+    "id": "b2c6c3782cc74966b7a6edb3660089d8"
+  },
+  "popRelationship":
+  [],
+  "price":
+  [
+    {
+      "dutyFreeAmount":
+      {
+        "unit": "USD",
+        "value": 450
+      },
+      "id": "1215cc6ec257472dba64d19b9692bb4e",
+      "validFor":
+      {
+        "startDateTime": "2017-01-01T00:00:00Z"
+      }
+    }
+  ],
+  "priceAlterationCategory":
+  [],
+  "priceCharacteristic":
+  [
+    {
+      "GRTTypeName": "Charge codes",
+      "characteristicSource": "GRT object",
+      "characteristicSourceParameterName": "Charge codes",
+      "characteristicValue":
+      [
+        {
+          "value": "DUMMY"
+        }
+      ],
+      "configurable": false,
+      "maxCardinality": 1,
+      "minCardinality": 1,
+      "name": "Charge code",
+      "range": false,
+      "recommended": false,
+      "scale":
+      [],
+      "simpleValue":
+      [],
+      "valueRecord":
+      [],
+      "valueType": "String"
+    },
+    {
+      "characteristicSource": "Elementary Type",
+      "characteristicSourceParameterName": "taxCode",
+      "characteristicValue":
+      [
+        {
+          "value": "TX1"
+        }
+      ],
+      "configurable": false,
+      "maxCardinality": 1,
+      "minCardinality": 1,
+      "name": "taxCode",
+      "range": false,
+      "recommended": false,
+      "scale":
+      [],
+      "simpleValue":
+      [],
+      "valueRecord":
+      [],
+      "valueType": "String"
+    }
+  ],
+  "qualificationCriteriaCharacteristic":
+  [],
+  "priceEvent":
+  [],
+  "priceParameterAdditionalData":
+  [],
+  "priceRecord":
+  [],
+  "priceType": "OC",
+  "role": "Price",
+  "service":
+  [],
+  "taxIncluded": "Excluded",
+  "type": "SimplePrice",
+  "id": "cf06858629614da182b294f63861f44c"
+}
